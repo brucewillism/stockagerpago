@@ -73,17 +73,18 @@ if(isset($_SESSION["user"]) && isset($_SESSION["pw"])){
             <?php if (isset($_SESSION['user'])): ?>
               <li><a href="cadastro_produto.php"><i class="glyphicon glyphicon-list-alt"></i>Cadastrar Itens</a></li>
               <li><a href="quantidade_estoque.php"><i class="glyphicon glyphicon-list"></i>Produtos</a></li>
+              <li><a href="cadastro_clientes.php"><i class="glyphicon glyphicon-list-alt"></i>Cadastrar Clientes</a></li>
+              <li><a href="cliente_list.php"><i class="glyphicon glyphicon-list"></i>Clientes</a></li>
+              <li><a href="cadastro_fornecedores.php"><i class="glyphicon glyphicon-list-alt"></i>Cadastrar fornecedores</a></li>
+              <li><a href="fornecedores_list.php"><i class="glyphicon glyphicon-list"></i>Fornecedores</a></li>
               <li><a href="perfil.php"><i class="fa fa-user"></i> Minha conta</a></li>
               <?php else: ?>
                 <li><a href="login.php"><i class="glyphicon glyphicon-user"></i>Login</a></li>
                 <li><a href="contatos.php"><i class="glyphicon glyphicon-list-alt"></i>Contatos</a></li>
                 <li><a href="sobre.php"><i class="fa fa-users"></i>Quem somos</a></li>
               <?php endif ?>
-
-              
             </ul>
           </div>
         </div>
       </div>
     </div> <!-- End mainmenu area -->
-    

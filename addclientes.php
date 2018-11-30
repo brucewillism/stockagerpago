@@ -22,27 +22,27 @@ $file_path= addslashes($_FILES['file']['tmp_name']);
 $file = file_get_contents($file_path);
 
 
-$sql = ("INSERT INTO usuarios (cpf,cnpj,rg,nome,nome_fantasia,cep,endereco,numero,bairro,complemento,cidade,uf,telefone,celular,email,usuario_id, ARQUIVO) 
+$sql = ("INSERT INTO usuarios (cpf, cnpj, rg, nome, nome_fantasia, cep, endereco, numero, bairro, complemento, cidade, uf, telefone, celular, email, usuario_id, ARQUIVO) 
 
 	VALUES(:cpf,:cnpj,:rg,:nome,:nome_fantasia,:cep,:endereco,:numero,:bairro,:complemento,:cidade,:uf,:telefone,:celular,:email,:usuario_id,:file)");
 
 $stmt = $conn->prepare( $sql );
 
-$stmt->bindParam( ':cpf', $cpf );
-$stmt->bindParam( ':cnpj', $cnpj );
-$stmt->bindParam( ':rg', $rg );
+$stmt->bindParam( ':usuario_id', $usuario_id);
 $stmt->bindParam( ':nome', $nome);
 $stmt->bindParam( ':nome_fantasia', $nome_fantasia);
-$stmt->bindParam( ':cep', $cep);
 $stmt->bindParam( ':endereco', $endereco);
 $stmt->bindParam( ':cidade', $cidade);
 $stmt->bindParam( ':numero', $numero);
 $stmt->bindParam( ':complemento', $complemento);
+$stmt->bindParam( ':cpf', $cpf );
+$stmt->bindParam( ':cnpj', $cnpj );
+$stmt->bindParam( ':rg', $rg );
+$stmt->bindParam( ':cep', $cep);
 $stmt->bindParam( ':uf', $uf);
 $stmt->bindParam( ':telefone', $telefone);
 $stmt->bindParam( ':celular', $celular);
 $stmt->bindParam( ':email', $email);
-$stmt->bindParam( ':usuario_id', $usuario_id);
 $stmt->bindParam( ':file', $file);
 
 $result = $stmt->execute();
