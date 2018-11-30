@@ -1,0 +1,45 @@
+body{
+	background-repeat: no-repeat;
+	bottom: 0;
+	color: black;
+	left: 0;
+	text-align: center;
+
+}
+
+a{
+	text-align: left;
+	font-size: 1em;
+	color:black;
+	/*animation-duration: 2s;
+	animation-name: slidein;*/
+}
+
+table{
+	margin-left: 3%;
+	margin-top: 2%;
+	width: 95%;
+	text-align: center;
+	font-size: 25px;
+	
+	color:black;
+	
+	/*animation-duration: 2s;
+	animation-name: slidein;*/
+}
+/*	
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+  75% {
+  	font-size: 500%;
+  	margin-left: 25%;
+  	width: 150%;
+}*/

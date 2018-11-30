@@ -1,0 +1,25 @@
+h2{
+    text-align: center;
+
+}
+form {
+    width: 25vw;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 0.5vw;
+    margin-top: 1em;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+}
+
+input {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 0.7em;
+    padding: 0.3em;
+
+    background: white;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 2px black;
+}

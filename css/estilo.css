@@ -1,0 +1,21 @@
+/*img {
+	width: 100%;
+}*/
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.wrapper {
+	padding: 40px 0;
+	background-color: #f5f5f5;
+}
+
+.artigo {
+	padding: 15px 0;
+	border-top: 1px solid #ddd;
+}
+.artigo:first-child {
+	padding-top: 0;
+	border-top: 0;
+}

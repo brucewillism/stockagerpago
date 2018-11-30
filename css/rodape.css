@@ -1,0 +1,303 @@
+ body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 3.5;
+    color: #818181;
+}
+.w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.w3-left-align{text-align:left!important}.w3-right-align{text-align:right!important}.w3-justify{text-align:justify!important}.w3-center{text-align:center!important}
+
+.footer{
+    color: #000!important;
+    background-color: #286090!important;
+}
+rodap.css:140
+.w3-padding-64 {
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+rodap.css:128
+.w3-center {
+    text-align: center!important;
+}
+rodap.css:127
+.w3-xlarge {
+    font-size: 24px!important;
+}
+rodap.css:121
+.w3-opacity, .w3-hover-opacity:hover {
+    opacity: 0.60;
+}
+rodap.css:106
+.w3-container, .w3-panel {
+    padding: 0.01em 16px;
+}
+rodap.css:5
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+normalize.less:46
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+rodap.css:2
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+bootstrap.css:1062
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+Inherited from body#myPage
+rodap.css:28
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+menu.css:1
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+menu.css:1
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+scaffolding.less:32
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+rodap.css:28
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+rodap.css:4
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+scaffolding.less:27
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+normalize.less:10
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+rodap.css:2
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+bootstrap.css:1068
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+rodap.css:2
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+bootstrap.css:1068
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+rodap.css:126
+.w3-xlarge {
+    font-size: 24px!important;
+}
+rodap.css:120
+.w3-opacity, .w3-hover-opacity:hover {
+    opacity: 0.60;
+}
+rodap.css:5
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+normalize.less:46
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+rodap.css:2
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+bootstrap.css:1062
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+menu.css:1
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+menu.css:1
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+scaffolding.less:32
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+rodap.css:28
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+rodap.css:4
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+scaffolding.less:27
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+normalize.less:10
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+rodap.css:2
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+bootstrap.css:1068
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+rodap.css:2
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+bootstrap.css:1068
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+margin‒
+‒border‒
+‒padding‒
+‒995 × 80‒
+‒‒
+‒‒
+‒
+
+Filter
+
+Show all
+background-color:
+rgb(40, 96, 144)
+;
+box-sizing:
+border-box
+;
+color:
+rgb(0, 0, 0)
+;
+display:
+block
+;
+font-family:
+Verdana, sans-serif
+;
+font-size:
+24px
+;
+font-stretch:
+normal
+;
+font-style:
+normal
+;
+font-variant-caps:
+normal
+;
+font-variant-ligatures:
+normal
+;
+font-variant-numeric:
+normal
+;
+font-weight:
+normal
+;
+height:
+80px
+;
+line-height:
+36px
+;
+opacity:
+0.6
+;
+text-size-adjust:
+100%
+;
+width:
+995px
+;
+-webkit-tap-highlight-color:
+rgba(0, 0, 0, 0)
+;
+Rendered Fonts
+Liberation Sans—Local file(8 glyphs)
+
+Console
+
+
+
+top
+
+Filter
+Default levels
+

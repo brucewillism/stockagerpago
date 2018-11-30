@@ -1,0 +1,68 @@
+	body{
+
+   background-image: url("../imagem/gestao4.png");
+   background-repeat: no-repeat;
+   background-size:100%;
+   bottom: 0;
+   color: black;
+   left: 0;
+   overflow: auto;
+   padding: 3em;
+   position: absolute;
+   right: 0;
+   text-align: center;
+   top: 0;
+ }
+
+ p,body{
+  text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,0 0 0.2em #87F;
+  color:#FFD700;
+  font-size:40px;
+  animation-duration: 2s;
+  animation-name: slidein;
+  
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+  75% {
+  	font-size: 500%;
+  	margin-left: 25%;
+  	width: 150%;
+
+  }
+  @keyframes btn1{
+    0%{
+      transform: rotate(0);
+    }
+    25%{
+      transform: rotate(10deg);
+    }
+    50%{
+      transform: rotate(0);
+    }
+    75%{
+      transform: rotate(-10deg);
+    }
+    100%{
+      transform: rotate(0);
+    }
+  }
+  .btn-1{
+   transition: .8s;
+ }
+ .btn-1:hover{
+  animation-name: btn1;
+  animation-delay: 0.5s;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}    

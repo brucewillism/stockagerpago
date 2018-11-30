@@ -1,0 +1,32 @@
+ * {
+    box-sizing: border-box;
+/*    font-family: arial;
+*/    border-radius: 0.5em;
+}
+form {
+    width: 25vw;
+    margin: auto;
+    border: 1em solid #85a8ce;
+    padding: 0.5vw;
+    margin-top: 1em;
+}
+h1, h2 {
+    text-align: center;
+}
+input {
+/*display: block;*/
+width: 100%;
+font-size: 1em;
+margin-bottom: 0.7em;
+padding: 1.3em;
+
+background: #c3cdde;
+border: 1px solid 85a8ce;
+box-shadow: 3px 3px 2px black;
+}
+.btn-lg {
+    background: #3279B0;
+    color: white;
+    font-weight: bold;
+    padding: 0.8em;
+}
