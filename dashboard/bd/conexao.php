@@ -2,8 +2,8 @@
 session_start();
 $host = "localhost";
 $usuario = "root";
-$senha = "0301HeX@";
-$bd = "teste";
+$senha = "";
+$bd = "controle";
 
 
 try {

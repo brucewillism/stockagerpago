@@ -8,35 +8,59 @@ require_once 'bd/conexao.php';
 	<title>Autenticação</title>
 	<script type="text/javascript">
 		function loginsucess(){
-			window.location='index.php';
+			window.location='dashboard/index.html';
 		}
+		
 		function loginfailed(){
 			alert('Login e/ou senha incorretos');
-			window.location='login.php';
+			window.location='Login/index.html';
 		}
 	</script>
 </head>
 <body>
-
 	<?php
+
 	$user = addslashes($_POST['user']);
 	$pw = md5(addslashes($_POST['password']));
-	$sql = "SELECT * FROM usuarios WHERE user='$user' AND pw='$pw'";
-	$res = $conn->query($sql);
-	if($res !== false){
+	// Usuário não forneceu a senha ou o login 
+	if(!$user || !$pw) 
+	{ 
+		echo "Você deve digitar sua senha e login!"; 
+		exit; 
+	}		
+	$res = $conn->query("SELECT *
+		FROM tb_usuarios 
+		WHERE
+		ds_login='$user' 
+		AND ds_senha='$pw'");
+		
+		foreach ($res as $dados) {
+		$nome = $dados['nome'];
 		$result = $res->fetch(PDO::FETCH_ASSOC);
-		if($result['user'] == $user && $result['pw'] == $pw) {
+    // Obtém os dados do usuário, para poder verificar a senha e passar os demais dados para a sessão 
+		if($res) 
+		{ 
+			if($dados['ds_login'] == $user && $dados['ds_senha'] == $pw){
+
+			} 
+        // TUDO OK! Agora, passa os dados para a sessão e redireciona o usuário 
 			$_SESSION['user'] = $user;
 			$_SESSION['password'] = $pw;
-			$_SESSION['logado'] = True;
-			$_SESSION['cnpj'] = $result['cnpj'];
-			$_SESSION['user_id'] = $result['usuario_id'];
-			echo "<script>loginsucess()</script>";
+			$_SESSION['logado'] = true;
+			$_SESSION['nome'] = $dados['nome'];
+			$_SESSION['id'] = $dados['id'];
+
+			if ($_SESSION['logado'] == true) {
+				
+				echo "<script>loginsucess()</script>";
+			}
 		}
 		else{
+
 			echo "<script>loginfailed()</script>";
 		}
-	}	
+	}
 	?>
+
 </body>
 </html>
